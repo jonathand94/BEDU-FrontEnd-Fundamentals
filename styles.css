@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body{
     background-color: #f5fffd;
@@ -9,23 +10,29 @@ h1{
     color: #025157;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 h4{
     color: #46484c;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.publishing_text{
+    color: #a3a19d;
 }
 
 form{
     text-align: center;
+    font-weight: bold;
 }
 
 .submit_button {
     background-color: #025157; /* Green */
     color: #fff;
-  }
+}
   
 .image_center{
     padding-top: 20px;
@@ -57,7 +64,7 @@ form{
 
 .logo > img {
     height: 100%;
-  }
+}
 
 .navbar{
     width: 70%;
