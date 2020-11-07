@@ -19,6 +19,14 @@ form{
     color: #fff;
   }
   
+.image_center{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .header{
     margin-top: 40px;
     margin-left: 20px;
