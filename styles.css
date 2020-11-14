@@ -56,13 +56,27 @@ form{
     color: #025157;
 }
 
-#photos_div > *{
+#photos > *{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-style: oblique;
     text-align: center;
     font-size: 1rem;
     color: #025157;
+}
+
+#photos_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#photos_grid > *{
+    width: 300px;
+    height: 250px;
 }
 
 .submit_button {
