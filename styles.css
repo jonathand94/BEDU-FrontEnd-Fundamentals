@@ -3,21 +3,32 @@
 
 body{
     background-color: #f5fffd;
+    font-size: 25px;
 }
 
-h1{
+hr{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#headline{
+    margin: 2rem;
+}
+
+#web_title{
     color: #025157;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    margin-top: 50px;
+    font-size: 2rem;
 }
 
-h4{
+#general_promotional{
     color: #46484c;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    margin-bottom: 2rem;
 }
 
 .publishing_text{
@@ -28,7 +39,30 @@ h4{
 form{
     text-align: center;
     font-weight: bold;
-    margin: 50px;
+    margin: 1.5rem;
+}
+
+#youtube_promotional{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#youtube_promotional > *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1rem;
+    color: #025157;
+}
+
+#photos_div > *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1rem;
+    color: #025157;
 }
 
 .submit_button {
@@ -45,12 +79,11 @@ form{
     border-radius: 25px;
 }
   
-.image_center{
+.image_footer{
     padding-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
+    display: block;
+    margin: auto;
 }
 
 .header{
@@ -75,8 +108,7 @@ form{
 
 .logo > img {
     height: 100%;
-    display: block;
-    margin-left: auto;
+    margin-left: 2rem;
     margin-right: auto;
     width: 50%;
 }
@@ -108,5 +140,7 @@ form{
     height: 100%;
     display: inline;
 }
+
+
 
 
