@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--Información importante de la página web que no será visible-->
         <title>Matcha</title>
         <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8">
@@ -9,10 +8,7 @@
     <body>
 
         <header class="header">
-            <!-- Logo con link a la página principal -->
             <a href="/" class="logo"> <img src="https://i.pinimg.com/originals/fa/99/69/fa99695d46c1e28ef267519904f8dcb5.png" /> </a>
-            
-            <!-- Menú de navegación -->
             <nav class="navbar"> 
                 <ul> 
                     <li class="nav_elements"><a href="">COMPANY</a></li>
@@ -21,8 +17,6 @@
                     <li class="nav_elements"><a href="">ABOUT</a></li>
                 </ul> 
             </nav>
-            
-            <!-- Contenedor de acciones de usuario -->
             <div class="actions"> 
                 <button type="submit" class="sign_in_button">Start free trial</button>
             </div>
@@ -32,25 +26,22 @@
             <h1 id='web_title'>Build your blog. Build your business.</h1>
             <h4 id='general_promotional'>Instantly publish articles, drive more traffic, 
                 grow your email list, and see your blog’s impact on sales.</h4>
-            
             <form>
                 <input type="email" value="Enter email address"/>
                 <button type="submit" class="submit_button">Try it now! &rarr;</button>
             </form>
-            
-            <div>
-                <p class="publishing_text">Start publishing today with a <b>free 7-day trial</b>.</p>
-                <p class="publishing_text"><b>No credit card</b> required.</p>
+            <div id='publishing_text'>
+                <p>Start publishing today with a <b>free 7-day trial</b>.</p>
+                <p><b>No credit card</b> required.</p>
             </div>
         </section>
 
         <hr>
 
-        <section id="youtube_promotional">
-            <h4 style="text-align: center; font-weight: bold;">Videos.</h4>
+        <section id="video_promotional">
+            <h4>Videos.</h4>
             <p>While you wait for your trial, just watch these beautiful videos. One from 
                 Lindsey Stirling and the other corresponding to a promotional.</p>
-            
             <div id='videos'>
                 <div id="youtube_video">
                     <iframe 
@@ -62,12 +53,20 @@
                             allowfullscreen>
                     </iframe>
                 </div>
-    
                 <div id='video'>
-                    <video
-                        controls
-                        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-                    ></video>
+                    <video 
+                    controls
+                    poster="https://i.pinimg.com/originals/9b/c0/31/9bc031ded28a4eccb4a3f1df621ff84d.png"
+                    >
+                        <source 
+                            type="video/mp4"
+                            src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                        />
+                        <source
+                            type="video/webm"
+                            src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                      />
+                    </video>
                 </div>
             </div>
         </section>
@@ -79,10 +78,18 @@
             <p>Let us look at some beautiful photos of puppies.</p>   
 
             <div id='photos_grid'>
-                <img src="content/images/puppy1.jpg" alt="Bad puppy 1">
-                <img src="content/images/puppy2.jpg" alt="Bad puppy 1">
-                <img src="content/images/puppy3.jpg" alt="Bad puppy 1">
-                <img src="content/images/puppy4.jpg" alt="Bad puppy 1">
+                <img 
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" 
+                    alt="A sad white puppy.">
+                <img 
+                    src="https://www.bbb.org/corecmsimages/f29b5a39-ca85-4f1b-af48-1eb676d5fa8f.jpg" 
+                    alt="Three labrador puppies in a basket.">
+                <img 
+                    src="https://image.winudf.com/v2/image/Y29tLkhEV2FsbHBhcGVyLmN1dGVsaXR0bGVwdXBweV9zY3JlZW5fMF8xNTIzMjM3MDM1XzA3OA/screen-0.jpg?fakeurl=1&type=.jpg" 
+                    alt="Two little puppies in a basket.">
+                <img 
+                    src="https://c0.wallpaperflare.com/preview/216/677/320/schnauzer-dog-puppy-pet.jpg" 
+                    alt="Cute schnauzer puppy.">
             </div>
         </section>
 

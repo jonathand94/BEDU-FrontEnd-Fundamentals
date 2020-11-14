@@ -7,109 +7,12 @@ body{
 }
 
 hr{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0 0 0.5em;
 }
 
-#headline{
-    margin: 2rem;
-}
-
-#web_title{
-    color: #025157;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    font-size: 2rem;
-}
-
-#general_promotional{
-    color: #46484c;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    margin-bottom: 2rem;
-}
-
-.publishing_text{
-    color: #a3a19d;
-    text-align: center;
-}
-
-form{
-    text-align: center;
-    font-weight: bold;
-    margin: 1.5rem;
-}
-
-#youtube_promotional{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-#youtube_promotional > *{
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-style: oblique;
-    text-align: center;
-    font-size: 1rem;
-    color: #025157;
-}
-
-#videos{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 450px);
-}
-
-#videos > *{
-    width: 300px;
-    height: 300px;
-}
-
-#photos > *{
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-style: oblique;
-    text-align: center;
-    font-size: 1rem;
-    color: #025157;
-}
-
-#photos_grid{
-    display: grid;
-    grid-template-columns: repeat(2, 350px);
-    grid-template-rows: repeat(2, 300px);
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-#photos_grid > *{
-    width: 300px;
-    height: 250px;
-}
-
-.submit_button {
-    background-color: #025157; /* Green */
-    color: #fff;
-}
-
-.sign_in_button{
-    background-color: Transparent; /* Green */
-    color: #fff;
-    width: 180px;
-    height: 50px;
-    margin: auto;
-    border-radius: 25px;
-}
-  
-.image_footer{
-    padding-top: 20px;
-    width: 50%;
-    display: block;
-    margin: auto;
-}
+/*
+    ------------------ HEADER ------------------
+*/
 
 .header{
     margin: 0;
@@ -166,6 +69,126 @@ form{
     display: inline;
 }
 
+.sign_in_button{
+    background-color: Transparent; 
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+/*
+    ------------------ HEAD LINE ------------------
+*/
+
+#head_line{
+    margin: 2rem;
+}
+
+#head_line > #web_title{
+    color: #025157;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#head_line > #general_promotional{
+    color: #46484c;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+#head_line > #publishing_text{
+    color: #a3a19d;
+    text-align: center;
+}
+
+#head_line > form{
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+.submit_button {
+    background-color: #025157; 
+    color: #fff;
+}
+
+
+/*
+    ------------------ VIDEO PROMOTIONAL ------------------
+*/
+
+#video_promotional{
+    margin: 2rem 0 0 2rem;
+}
+
+#video_promotional > *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1rem;
+    color: #025157;
+}
+
+#video_promotional > h4{
+    font-weight: bold;
+}
+
+#videos{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 450px);
+}
+
+#videos > *{
+    width: 300px;
+    height: 300px;
+}
+
+/*
+    ------------------ PHOTOS PROMOTIONAL ------------------
+*/
+
+#photos > *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1rem;
+    color: #025157;
+}
+
+#photos_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#photos_grid > *{
+    width: 300px;
+    height: 250px;
+}
+
+  
+/*
+    ------------------ FOOTER ------------------
+*/
+
+.image_footer{
+    padding-top: 20px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
 
 
 
