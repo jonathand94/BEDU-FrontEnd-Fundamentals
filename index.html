@@ -25,7 +25,7 @@
             <h4 id='general_promotional'>Instantly publish articles, drive more traffic, 
                 grow your email list, and see your blog’s impact on sales.</h4>
             <form>
-                <input type="email" value="Enter email address"/>
+                <input type="email" class="email_input" value="Enter email address"/>
                 <button type="submit" class="submit_button">Try it now! &rarr;</button>
             </form>
             <div id='publishing_text'>
@@ -37,10 +37,10 @@
         <hr>
 
         <section id="video_promotional">
-            <h4>Videos.</h4>
+            <h4>Videos</h4>
             <p>While you wait for your trial, just watch these beautiful videos. One from Lindsey Stirling and the other corresponding to a promotional.</p>
-            <div id='videos'>
-                <div id="youtube_video">
+            <div id='videos_grid'>
+                <div class="video">
                     <iframe 
                             width="400" 
                             height="250" 
@@ -50,7 +50,7 @@
                             allowfullscreen>
                     </iframe>
                 </div>
-                <div id='video'>
+                <div class="video">
                     <video 
                     controls
                     poster="https://i.pinimg.com/originals/9b/c0/31/9bc031ded28a4eccb4a3f1df621ff84d.png"
@@ -75,18 +75,26 @@
             <p>Let us look at some beautiful photos of puppies.</p>   
 
             <div id='photos_grid'>
-                <img 
-                    src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" 
-                    alt="A sad white puppy.">
-                <img 
-                    src="https://www.bbb.org/corecmsimages/f29b5a39-ca85-4f1b-af48-1eb676d5fa8f.jpg" 
-                    alt="Three labrador puppies in a basket.">
-                <img 
-                    src="https://image.winudf.com/v2/image/Y29tLkhEV2FsbHBhcGVyLmN1dGVsaXR0bGVwdXBweV9zY3JlZW5fMF8xNTIzMjM3MDM1XzA3OA/screen-0.jpg?fakeurl=1&type=.jpg" 
-                    alt="Two little puppies in a basket.">
-                <img 
-                    src="https://c0.wallpaperflare.com/preview/216/677/320/schnauzer-dog-puppy-pet.jpg" 
-                    alt="Cute schnauzer puppy.">
+                <div class="puppy_photo">
+                    <img 
+                        src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" 
+                        alt="A sad white puppy.">
+                </div>
+                <div class="puppy_photo">
+                    <img 
+                        src="https://www.bbb.org/corecmsimages/f29b5a39-ca85-4f1b-af48-1eb676d5fa8f.jpg" 
+                        alt="Three labrador puppies in a basket.">
+                </div>
+                <div class="puppy_photo">
+                    <img 
+                        src="https://image.winudf.com/v2/image/Y29tLkhEV2FsbHBhcGVyLmN1dGVsaXR0bGVwdXBweV9zY3JlZW5fMF8xNTIzMjM3MDM1XzA3OA/screen-0.jpg?fakeurl=1&type=.jpg" 
+                        alt="Two little puppies in a basket.">
+                </div>
+                <div class="puppy_photo">
+                    <img 
+                        src="https://c0.wallpaperflare.com/preview/216/677/320/schnauzer-dog-puppy-pet.jpg" 
+                        alt="Cute schnauzer puppy.">
+                </div>
             </div>
         </section>
 

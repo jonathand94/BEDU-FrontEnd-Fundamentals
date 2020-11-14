@@ -4,6 +4,8 @@
 body{
     background-color: #f5fffd;
     font-size: 25px;
+    margin-left: 4vmax;
+    margin-right: 4vmax;
 }
 
 hr{
@@ -20,7 +22,7 @@ hr{
 .header{
     margin: auto;
     font-size: 0;
-    height: 90px;
+    height: 6vmax;
     background-color: #11192e;
     position: fixed;
     top: 0;
@@ -30,9 +32,9 @@ hr{
 
 .header > *{
     display: inline-block;
-    font-size: 16px;
     vertical-align: middle;
     height: 100%;
+    width: 100%;
     line-height: 45px;
 }
 
@@ -43,40 +45,46 @@ hr{
 
 .logo > img {
     height: 100%;
-    margin-left: 2rem;
+    margin-left: 25%;
     margin-right: auto;
     width: 50%;
 }
 
 .navbar{
     width: 85%;
-    font-size: 20px;
     font-weight: 600;
-    height: 100%;
     background-color: #11192e;
 }
 
 .navbar > *{
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 .nav_elements{
     margin: auto;
     list-style-type: none;
+    font-size: 1.5vmax;
 }
 
 .nav_elements > *{
     text-decoration: none;
     color: white;
+    vertical-align: center;
+    height: 1vmax;
+    width: 1vmax;
 }
 
 .sign_in_button{
     background-color: Transparent; 
     color: #fff;
-    width: 180px;
-    height: 50px;
+    width: 15vmax;
+    height: 3vmax;
     margin: auto;
+    font-size: 1.5vmax;
     border-radius: 25px;
 }
 
@@ -85,8 +93,9 @@ hr{
 */
 
 #head_line{
-    margin: 3rem;
-    margin-top: 6rem;
+    margin-top: 10vmax;
+    margin-bottom: 5vmax;
+    display: inline-flexbox;
 }
 
 #head_line > #web_title{
@@ -94,7 +103,7 @@ hr{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 4vmax;
 }
 
 #head_line > #general_promotional{
@@ -102,23 +111,31 @@ hr{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    margin-bottom: 2rem;
+    font-size: 2vmax;
 }
 
 #head_line > #publishing_text{
     color: #a3a19d;
     text-align: center;
+    margin-top: 4vmax;
+    font-size: 1.8vmax;
 }
 
 #head_line > form{
     text-align: center;
     font-weight: bold;
-    margin: 1.5rem;
 }
 
 .submit_button {
     background-color: #025157; 
     color: #fff;
+    height: 3.5vmax;
+    width: 10vmax;
+    font-size: 1.3vmax;
+}
+
+.email_input{
+    font-size: 1.3vmax;
 }
 
 
@@ -127,7 +144,7 @@ hr{
 */
 
 #video_promotional{
-    margin: 2rem 0 0 2rem;
+    margin: 2%;
 }
 
 #video_promotional > *{
@@ -135,23 +152,42 @@ hr{
     font-weight: lighter;
     font-style: oblique;
     text-align: center;
-    font-size: 1rem;
     color: #025157;
 }
 
 #video_promotional > h4{
     font-weight: bold;
+    font-size: 2.2vmax;
 }
 
-#videos{
+#video_promotional > p{
+    font-size: 1.8vmax;
+}
+
+#videos_grid{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2vmax;
     justify-content: center;
-    grid-template-columns: repeat(2, 450px);
+    margin-top: 0.5vmax;
+    margin-bottom: 5vmax;
+    background-color: #d6ecff;
+    padding-top: 1vmax;
+    padding-bottom: 2vmax;
+    padding-left: 1vmax;
+    padding-right: 2vmax;
+    border: 0.4vmax solid;
 }
 
-#videos > *{
-    width: 300px;
-    height: 300px;
+#videos_grid > #youtube_video{
+    width: 100%;
+    height: 100%;
+}
+
+.video > *{
+    width: 100%;
+    height: 100%;
+    border: 0.4vmax solid;
 }
 
 /*
@@ -163,22 +199,48 @@ hr{
     font-weight: lighter;
     font-style: oblique;
     text-align: center;
-    font-size: 1rem;
     color: #025157;
+}
+
+#photos > h4{
+    font-weight: bold;
+    font-size: 2.2vmax;
+}
+
+#photos > p{
+    font-size: 1.8vmax;
 }
 
 #photos_grid{
     display: grid;
-    grid-template-columns: repeat(2, 350px);
-    grid-template-rows: repeat(2, 300px);
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-row-gap: 2vmax;
+    grid-column-gap: 2vmax;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1vmax;
+    margin-bottom: 5vmax;
+    margin-left: 15vmax;
+    margin-right: 15vmax;
+    padding-top: 1vmax;
+    padding-bottom: 2vmax;
+    padding-left: 1.5vmax;
+    padding-right: 2vmax;
+    background-color: #d6ecff;
+    border: 0.4vmax solid;
 }
 
-#photos_grid > *{
-    width: 300px;
-    height: 250px;
+#photos_grid > #puppy_photo{
+    margin: auto;
+}
+
+.puppy_photo > *{
+    width: 100%;
+    height: 100%;
+    border: 0.4vmax solid;
+}
+
+.puppy_photo > img{
+    width: 100%;
 }
 
   
@@ -187,7 +249,7 @@ hr{
 */
 
 .image_footer{
-    padding-top: 20px;
+    padding-top: 1vmax;
     width: 50%;
     display: block;
     margin: auto;
