@@ -56,6 +56,17 @@ form{
     color: #025157;
 }
 
+#videos{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 450px);
+}
+
+#videos > *{
+    width: 300px;
+    height: 300px;
+}
+
 #photos > *{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
