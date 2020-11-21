@@ -22,7 +22,7 @@ hr{
 .header{
     margin: auto;
     font-size: 0;
-    height: 6vmax;
+    height: 100px;
     background-color: #11192e;
     position: fixed;
     top: 0;
@@ -44,10 +44,10 @@ hr{
 }
 
 .logo > img {
-    height: 100%;
+    height: 100px;
     margin-left: 25%;
     margin-right: auto;
-    width: 50%;
+    width: 120px;
 }
 
 .navbar{
@@ -64,27 +64,10 @@ hr{
     margin: auto;
 }
 
-@media (max-width: 650px) { 
-    .navbar > *{
-        display: inline-flex;
-        align-content: center;
-        height: 100%;
-        width: 100%;
-    }
-}
-
 .nav_elements{
     margin: auto;
     list-style-type: none;
-    font-size: 1.5vmax;
-}
-
-@media (max-width: 650px) { 
-    .nav_elements{
-        margin: auto;
-        list-style-type: none;
-        font-size: 10px;
-    }
+    font-size: 30px;
 }
 
 .nav_elements > *{
@@ -98,11 +81,117 @@ hr{
 .sign_in_button{
     background-color: Transparent; 
     color: #fff;
-    width: 15vmax;
-    height: 3vmax;
+    width: 250px;
+    height: 60px;
     margin: auto;
-    font-size: 1.5vmax;
+    margin-right: 50px;
+    font-size: 30px;
     border-radius: 25px;
+}
+
+@media (max-width: 1490px) { 
+    .nav_elements{
+        font-size: 28px;
+    }
+    .sign_in_button{
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1390px) { 
+    .nav_elements{
+        font-size: 25px;
+    }
+    .sign_in_button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1020px) { 
+    .nav_elements{
+        font-size: 20px;
+    }
+    .sign_in_button{
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 850px) { 
+    .header{
+        height: 60px;
+    }
+    .logo > img {
+        height: 60px;
+        width: 60px;
+    }
+    .nav_elements{
+        font-size: 15px;
+    }
+    .sign_in_button{
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .nav_elements{
+        font-size: 12px;
+    }
+    .sign_in_button{
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 575px) { 
+    .header{
+        height: 50px;
+    }
+    .logo{
+        display: None;
+    }
+    .nav_elements{
+        font-size: 10px;
+    }
+    .sign_in_button{
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 475px) { 
+    .nav_elements{
+        font-size: 11px;
+    }
+    .sign_in_button{
+        display: none;
+    }
+}
+
+@media (max-width: 375px) { 
+    .nav_elements{
+        font-size: 11px;
+    }
+    .sign_in_button{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) { 
+    .nav_elements{
+        font-size: 10px;
+    }
+    .sign_in_button{
+        font-size: 10px;
+    }
 }
 
 /*
@@ -110,8 +199,8 @@ hr{
 */
 
 #head_line{
-    margin-top: 10vmax;
-    margin-bottom: 5vmax;
+    margin-top: 190px;
+    margin-bottom: 80px;
     display: inline-flexbox;
 }
 
@@ -123,50 +212,19 @@ hr{
     font-size: 70px;
 }
 
-@media (max-width: 1500px) { 
-    #head_line > #web_title{
-        font-size: 60px;
-    }
-}
-
-@media (max-width: 1200px) { 
-    #head_line > #web_title{
-        font-size: 45px;
-    }
-}
-
-
-@media (max-width: 970px) { 
-    #head_line > #web_title{
-        font-size: 35px;
-    }
-}
-
-@media (max-width: 670px) { 
-    #head_line > #web_title{
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 587px) { 
-    #head_line > #web_title{
-        font-size: 25px;
-    }
-}
-
 #head_line > #general_promotional{
     color: #46484c;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 2vmax;
+    font-size: 38px;
 }
 
 #head_line > #publishing_text{
     color: #a3a19d;
     text-align: center;
-    margin-top: 4vmax;
-    font-size: 1.8vmax;
+    margin-top: 30px;
+    font-size: 36px;
 }
 
 #head_line > form{
@@ -177,13 +235,316 @@ hr{
 .submit_button {
     background-color: #025157; 
     color: #fff;
-    height: 3.5vmax;
-    width: 10vmax;
-    font-size: 1.3vmax;
+    height: 50px;
+    width: 190px;
+    font-size: 25px;
 }
 
 .email_input{
-    font-size: 1.3vmax;
+    height: 40px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (max-width: 1765px) { 
+    #head_line > #general_promotional{
+        font-size: 35px;
+    }
+    #head_line > #publishing_text{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1635px) { 
+    #head_line > #web_title{
+        font-size: 65px;
+    }
+    #head_line > #general_promotional{
+        font-size: 33px;
+    }
+    #head_line > #publishing_text{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1530px) { 
+    #head_line{
+        margin-bottom: 60px;
+    }
+    #head_line > #web_title{
+        font-size: 60px;
+    }
+    #head_line > #general_promotional{
+        font-size: 30px;
+    }
+    #head_line > #publishing_text{
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 1405px) { 
+    #head_line{
+        margin-bottom: 55px;
+    }
+    #head_line > #web_title{
+        font-size: 55px;
+    }
+    #head_line > #general_promotional{
+        font-size: 28px;
+    }
+    #head_line > #publishing_text{
+        font-size: 27px;
+    }
+    .submit_button {
+        height: 40px;
+        width: 180px;
+        font-size: 22px;
+    }
+    
+    .email_input{
+        height: 30px;
+        width: 340px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1330px) { 
+    #head_line{
+        margin-bottom: 50px;
+    }
+    #head_line > #web_title{
+        font-size: 50px;
+    }
+    #head_line > #general_promotional{
+        font-size: 26px;
+    }
+    #head_line > #publishing_text{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1248px) { 
+    #head_line{
+        margin-bottom: 40px;
+    }
+    #head_line > #web_title{
+        font-size: 45px;
+    }
+    #head_line > #general_promotional{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1200px) { 
+    #head_line{
+        margin-top: 130px;
+    }
+    #head_line > #web_title{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1160px) { 
+    #head_line > #web_title{
+        font-size: 40px;
+    }
+    #head_line > #general_promotional{
+        font-size: 24px;
+    }
+    #head_line > #publishing_text{
+        font-size: 23px;
+    }
+    .submit_button {
+        height: 28px;
+        width: 160px;
+        font-size: 18px;
+    }
+    
+    .email_input{
+        height: 22px;
+        width: 260px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 970px) { 
+    #head_line{
+        margin-top: 120px;
+    }
+    #head_line > #web_title{
+        font-size: 35px;
+    }
+    #head_line > #general_promotional{
+        font-size: 20px;
+    }
+    #head_line > #publishing_text{
+        font-size: 19px;
+    }
+    .submit_button {
+        height: 26px;
+        width: 150px;
+        font-size: 15px;
+    }
+    .email_input{
+        height: 16px;
+        width: 200px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 830px) { 
+    #head_line{
+        margin-bottom: 30px;
+    }
+    #head_line{
+        margin-top: 90px;
+    }
+    #head_line > #web_title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 720px) { 
+    #head_line > #general_promotional{
+        font-size: 19px;
+    }
+    #head_line > #publishing_text{
+        font-size: 18px;
+    }
+    .submit_button {
+        height: 24px;
+        width: 120px;
+        font-size: 15px;
+    }
+    .email_input{
+        height: 14px;
+        width: 190px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 670px) { 
+    #head_line{
+        margin-top: 85px;
+    }
+    #head_line > #web_title{
+        font-size: 30px;
+    }
+    #head_line > #general_promotional{
+        font-size: 18px;
+    }
+    #head_line > #publishing_text{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 598px) { 
+    #head_line{
+        margin-bottom: 20px;
+    }
+    #head_line{
+        margin-top: 80px;
+    }
+    #head_line > #web_title{
+        font-size: 23px;
+    }
+    #head_line > #general_promotional{
+        font-size: 16px;
+    }
+    #head_line > #publishing_text{
+        font-size: 15px;
+    }
+    .submit_button {
+        height: 22px;
+        width: 100px;
+        font-size: 13px;
+    }
+    .email_input{
+        height: 12px;
+        width: 170px;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 498px) { 
+    #head_line{
+        margin-top: 80px;
+    }
+    #head_line > #web_title{
+        font-size: 20px;
+    }
+    #head_line > #general_promotional{
+        font-size: 14px;
+    }
+    #head_line > #publishing_text{
+        font-size: 13px;
+    }
+    .submit_button {
+        height: 20px;
+        width: 100px;
+        font-size: 11px;
+    }
+    .email_input{
+        height: 10px;
+        width: 140px;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 435px) { 
+    #head_line{
+        margin-top: 80px;
+    }
+    #head_line > #web_title{
+        font-size: 18px;
+    }
+    #head_line > #general_promotional{
+        font-size: 12px;
+    }
+    #head_line > #publishing_text{
+        font-size: 11px;
+    }
+    .submit_button {
+        height: 16px;
+        width: 80px;
+        font-size: 9px;
+    }
+    .email_input{
+        height: 8px;
+        width: 120px;
+        margin-top: 4px;
+        margin-bottom: 0.5px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) { 
+    #head_line{
+        margin-bottom: 10px;
+    }
+    #head_line > #web_title{
+        font-size: 16px;
+    }
+    #head_line > #general_promotional{
+        font-size: 10px;
+    }
+    #head_line > #publishing_text{
+        font-size: 9px;
+    }
 }
 
 
@@ -205,11 +566,13 @@ hr{
 
 #video_promotional > h4{
     font-weight: bold;
-    font-size: 2.2vmax;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 #video_promotional > p{
-    font-size: 1.8vmax;
+    font-size: 35px;
 }
 
 #videos_grid{
@@ -237,6 +600,174 @@ hr{
     height: 100%;
     border: 0.4vmax solid;
 }
+
+@media (max-width: 1765px) { 
+    #video_promotional > h4{
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    #video_promotional > p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1635px) { 
+    #video_promotional > h4{
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    #video_promotional > p{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1530px) { 
+    #video_promotional > h4{
+        margin-top: 33px;
+        margin-bottom: 35px;
+        font-size: 33px;
+    }
+    #video_promotional > p{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 1405px) { 
+    #video_promotional > h4{
+        margin-top: 31px;
+        margin-bottom: 30px;
+        font-size: 33px;
+    }
+    #video_promotional > p{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 1330px) { 
+    #video_promotional > h4{
+        margin-top: 28px;
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+    #video_promotional > p{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1248px) { 
+    #video_promotional > h4{
+        margin-top: 26px;
+        margin-bottom: 23px;
+        font-size: 30px;
+    }
+    #video_promotional > p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) { 
+    #video_promotional > h4{
+        margin-top: 24px;
+        margin-bottom: 21px;
+        font-size: 30px;
+    }
+    #video_promotional > p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1160px) { 
+    #video_promotional > h4{
+        margin-top: 22px;
+        margin-bottom: 20px;
+        font-size: 29px;
+    }
+    #video_promotional > p{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 970px) { 
+    #video_promotional > h4{
+        margin-top: 20px;
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+    #video_promotional > p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 830px) { 
+    #video_promotional > h4{
+        margin-top: 18px;
+        margin-bottom: 16px;
+        font-size: 26px;
+    }
+    #video_promotional > p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 720px) { 
+    #video_promotional > h4{
+        margin-top: 16px;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    #video_promotional > p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 670px) { 
+    #video_promotional > h4{
+        margin-top: 15px;
+        margin-bottom: 14px;
+        font-size: 24px;
+    }
+    #video_promotional > p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 622px) { 
+    #video_promotional > h4{
+        margin-top: 14px;
+        margin-bottom: 13px;
+        font-size: 23px;
+    }
+    #video_promotional > p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 592px) { 
+    #video_promotional > h4{
+        margin-top: 12px;
+        margin-bottom: 11px;
+        font-size: 21px;
+    }
+    #video_promotional > p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) { 
+    #video_promotional > h4{
+        margin-top: 10px;
+        margin-bottom: 9px;
+        font-size: 18px;
+    }
+    #video_promotional > p{
+        font-size: 10px;
+    }
+}
+
 
 /*
     ------------------ PHOTOS PROMOTIONAL ------------------
