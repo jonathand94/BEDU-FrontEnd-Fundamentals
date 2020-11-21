@@ -64,18 +64,35 @@ hr{
     margin: auto;
 }
 
+@media (max-width: 650px) { 
+    .navbar > *{
+        display: inline-flex;
+        align-content: center;
+        height: 100%;
+        width: 100%;
+    }
+}
+
 .nav_elements{
     margin: auto;
     list-style-type: none;
     font-size: 1.5vmax;
 }
 
+@media (max-width: 650px) { 
+    .nav_elements{
+        margin: auto;
+        list-style-type: none;
+        font-size: 10px;
+    }
+}
+
 .nav_elements > *{
     text-decoration: none;
     color: white;
     vertical-align: center;
-    height: 1vmax;
-    width: 1vmax;
+    height: 1vw;
+    width: 1vw;
 }
 
 .sign_in_button{
@@ -103,7 +120,38 @@ hr{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 4vmax;
+    font-size: 70px;
+}
+
+@media (max-width: 1500px) { 
+    #head_line > #web_title{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1200px) { 
+    #head_line > #web_title{
+        font-size: 45px;
+    }
+}
+
+
+@media (max-width: 970px) { 
+    #head_line > #web_title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 670px) { 
+    #head_line > #web_title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 587px) { 
+    #head_line > #web_title{
+        font-size: 25px;
+    }
 }
 
 #head_line > #general_promotional{
@@ -219,8 +267,6 @@ hr{
     justify-content: center;
     margin-top: 1vmax;
     margin-bottom: 5vmax;
-    margin-left: 15vmax;
-    margin-right: 15vmax;
     padding-top: 1vmax;
     padding-bottom: 2vmax;
     padding-left: 1.5vmax;
